@@ -1,0 +1,35 @@
+html {
+    font-size: 0.6rem;
+}
+
+
+
+h1 {
+    background-color: #00356B;
+    color: #F2F3F4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.grandparent {
+    color: #d6d6d6;
+    background-color: #00356B;
+    font-size: larger;
+    border: solid #857878;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.inherit {
+    color: inherit;
+}
+
+.flickers {
+    text-align: center;
+}
+
+div +  p {
+    background-color: #00356B;
+}
